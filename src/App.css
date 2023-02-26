@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
+  overflow: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  margin:auto;
+  text-align :center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  width:100px;
+  height:40px;
+  border-radius:20px;
+  margin:30px 50px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aliceblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn:hover{
+  background-color: black;
   color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor:pointer
 }
 
-.App-link {
-  color: #61dafb;
+.hover{
+  width:fit-content;
+  height:20px;
+  border-radius:20px;
+  padding:30px;
+  margin: 150px auto ;
+  display: flex;
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hover:hover{
+  background-color: black;
+  color: white;
+  cursor:pointer;
+  border-radius:20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.header{
+  height:50px;
+  background-color: black;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+  margin:auto
+}
+
+h3{
+  margin: 50px 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
